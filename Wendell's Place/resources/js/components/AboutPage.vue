@@ -127,7 +127,7 @@ export default {
 }
 
 .mission-section {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: rgba(0, 0, 0, 0.7);
   color: white;
   padding: 3rem;
   border-radius: 8px;
@@ -156,7 +156,7 @@ export default {
   align-items: flex-start;
   gap: 1rem;
   padding: 1.5rem;
-  background: #f9fafb;
+  background: rgba(249, 250, 251, 0.7);
   border-radius: 8px;
 }
 
@@ -166,7 +166,7 @@ export default {
   justify-content: center;
   width: 2rem;
   height: 2rem;
-  background: #2563eb;
+  background: #dc2626;
   color: white;
   border-radius: 50%;
   flex-shrink: 0;

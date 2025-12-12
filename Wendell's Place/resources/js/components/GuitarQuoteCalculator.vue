@@ -18,18 +18,18 @@
             <label for="repair-type">Repair Type</label>
             <select v-model="repairType" id="repair-type">
                 <option value="">Select repair type</option>
-                <option value="setup" data-price="75">Setup & Adjustment</option>
-                <option value="restring" data-price="35">Restring</option>
-                <option value="electronics" data-price="150">Electronics Repair</option>
-                <option value="fretwork" data-price="200">Fret Dressing</option>
-                <option value="pickup" data-price="100">Pickup Replacement</option>
-                <option value="refinish" data-price="500">Refinishing</option>
+                <option value="setup" data-price="4200">Setup & Adjustment</option>
+                <option value="restring" data-price="1960">Restring</option>
+                <option value="electronics" data-price="8400">Electronics Repair</option>
+                <option value="fretwork" data-price="11200">Fret Dressing</option>
+                <option value="pickup" data-price="5600">Pickup Replacement</option>
+                <option value="refinish" data-price="28000">Refinishing</option>
             </select>
         </div>
         
         <div v-if="showEstimate" class="estimate-result">
             <h4>Estimated Cost</h4>
-            <div class="price">${{ estimatedPrice }}</div>
+            <div class="price">₱{{ estimatedPrice.toLocaleString() }}</div>
             <p style="font-size: 0.9rem; color: #666;">This is a base estimate. Final cost may vary based on guitar condition and specific requirements.</p>
             <button @click="requestQuote" class="btn" style="margin-top: 1rem;">Request Detailed Quote</button>
         </div>
@@ -44,12 +44,12 @@ export default {
             guitarType: '',
             repairType: '',
             prices: {
-                setup: 75,
-                restring: 35,
-                electronics: 150,
-                fretwork: 200,
-                pickup: 100,
-                refinish: 500
+                setup: 4200,
+                restring: 1960,
+                electronics: 8400,
+                fretwork: 11200,
+                pickup: 5600,
+                refinish: 28000
             }
         }
     },

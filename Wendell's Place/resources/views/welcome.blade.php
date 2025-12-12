@@ -9,9 +9,17 @@
         <!-- Favicon -->
         <link rel="icon" href="/images/erasebg-transformed.ico" type="image/x-icon">
         
+        <!-- Preload Background Images -->
+        <link rel="preload" as="image" href="/images/Home.jpg" type="image/jpeg">
+        <link rel="preload" as="image" href="/images/Products.jpg" type="image/jpeg">
+        <link rel="preload" as="image" href="/images/About.jpg" type="image/jpeg">
+        <link rel="preload" as="image" href="/images/Contact.jpg" type="image/jpeg">
+        
         <!-- Fonts -->
-        <link rel="preconnect" href="https://fonts.bunny.net">
-        <link href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.cdnfonts.com/css/sekuya" rel="stylesheet">
         
         <!-- Styles and Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])

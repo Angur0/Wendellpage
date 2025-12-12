@@ -15,7 +15,7 @@
               <li><router-link to="/contact">Contact</router-link></li>
             </ul>
             <button class="dark-mode-toggle" @click="toggleDarkMode">
-              {{ darkMode ? '☀️ Light' : '🌙 Dark' }}
+              {{ darkMode ? '🔴' : '⚫' }}
             </button>
           </div>
         </nav>
@@ -24,7 +24,9 @@
 
     <main>
       <div class="container">
-        <router-view></router-view>
+        <transition name="fade" mode="out-in">
+          <router-view></router-view>
+        </transition>
       </div>
     </main>
 
@@ -76,5 +78,15 @@ export default {
 
 main {
   flex: 1;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
 }
 </style>

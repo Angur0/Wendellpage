@@ -14,32 +14,32 @@
       
       <div class="grid">
         <div class="card">
-          <h3>🎸 Expert Repairs</h3>
+          <h3>✓ Expert Repairs</h3>
           <p>Professional guitar repair services with years of experience in restoring instruments to peak performance.</p>
         </div>
         
         <div class="card">
-          <h3>🔧 Quality Parts</h3>
+          <h3>✓ Quality Parts</h3>
           <p>We source only the finest guitar parts and components from trusted suppliers worldwide.</p>
         </div>
         
         <div class="card">
-          <h3>⚡ Fast Turnaround</h3>
+          <h3>✓ Fast Turnaround</h3>
           <p>Most repairs completed within 1-2 weeks. Rush services available for urgent needs.</p>
         </div>
         
         <div class="card">
-          <h3>💰 Fair Pricing</h3>
+          <h3>✓ Fair Pricing</h3>
           <p>Transparent pricing with detailed estimates before any work begins. No hidden fees.</p>
         </div>
         
         <div class="card">
-          <h3>🎯 Custom Work</h3>
+          <h3>✓ Custom Work</h3>
           <p>From setups to complete rebuilds, we handle custom modifications and upgrades.</p>
         </div>
         
         <div class="card">
-          <h3>🤝 Trusted Service</h3>
+          <h3>✓ Trusted Service</h3>
           <p>Your instrument is in safe hands. We treat every guitar like it's our own.</p>
         </div>
       </div>
