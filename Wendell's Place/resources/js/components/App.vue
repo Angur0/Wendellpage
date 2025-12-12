@@ -3,7 +3,10 @@
     <header>
       <div class="container">
         <nav>
-          <router-link to="/" class="logo">Wendell's Place</router-link>
+          <router-link to="/" class="logo">
+            <img src="/images/erasebg-transformed.ico" alt="Wendell's Place Logo" class="logo-icon">
+            Wendell's Place
+          </router-link>
           <div style="display: flex; align-items: center;">
             <ul class="nav-links">
               <li><router-link to="/">Home</router-link></li>

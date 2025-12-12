@@ -22,10 +22,41 @@ body {
     color: #333;
     background-color: #f8f9fa;
     transition: background-color 0.3s, color 0.3s;
+    position: relative;
+    overflow-x: hidden;
+    min-height: 100vh;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    z-index: -2;
+}
+
+body::after {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(248, 249, 250, 0.70);
+    z-index: -1;
+}
+
+body.dark-mode::after {
+    background-color: rgba(26, 26, 26, 0.70);
 }
 
 body.dark-mode {
-    background-color: #1a1a1a;
     color: #e5e5e5;
 }
 
@@ -35,7 +66,7 @@ body.dark-mode header {
 }
 
 body.dark-mode .logo {
-    color: #60a5fa;
+    color: #ef4444;
 }
 
 body.dark-mode .nav-links a {
@@ -44,7 +75,7 @@ body.dark-mode .nav-links a {
 
 body.dark-mode .nav-links a:hover,
 body.dark-mode .nav-links a.active {
-    color: #60a5fa;
+    color: #ef4444;
 }
 
 body.dark-mode .card {
@@ -53,20 +84,21 @@ body.dark-mode .card {
 }
 
 body.dark-mode .btn {
-    background-color: #60a5fa;
+    background-color: #ef4444;
 }
 
 body.dark-mode .btn:hover {
-    background-color: #3b82f6;
+    background-color: #dc2626;
 }
 
 body.dark-mode .btn-outline {
-    border-color: #60a5fa;
-    color: #60a5fa;
+    border-color: #ef4444;
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.1);
 }
 
 body.dark-mode .btn-outline:hover {
-    background-color: #60a5fa;
+    background-color: #ef4444;
     color: #fff;
 }
 
@@ -111,8 +143,10 @@ body.dark-mode .contact-form-section {
 header {
     background: white;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    position: sticky;
+    position: fixed;
     top: 0;
+    left: 0;
+    right: 0;
     z-index: 100;
 }
 
@@ -126,8 +160,16 @@ nav {
 .logo {
     font-size: 1.5rem;
     font-weight: 600;
-    color: #2563eb;
+    color: #dc2626;
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.logo-icon {
+    height: 48px;
+    width: auto;
 }
 
 .nav-links {
@@ -145,11 +187,11 @@ nav {
 
 .nav-links a:hover,
 .nav-links a.active {
-    color: #2563eb;
+    color: #dc2626;
 }
 
 .dark-mode-toggle {
-    background: #2563eb;
+    background: #dc2626;
     color: white;
     border: none;
     padding: 0.5rem 1rem;
@@ -161,7 +203,7 @@ nav {
 }
 
 .dark-mode-toggle:hover {
-    background: #1d4ed8;
+    background: #b91c1c;
 }
 
 main {
@@ -226,7 +268,7 @@ p {
 .btn {
     display: inline-block;
     padding: 0.75rem 1.5rem;
-    background: #2563eb;
+    background: #dc2626;
     color: white;
     text-decoration: none;
     border-radius: 6px;
@@ -237,7 +279,7 @@ p {
 }
 
 .btn:hover {
-    background: #1d4ed8;
+    background: #b91c1c;
 }
 
 .btn-outline {
@@ -248,7 +290,7 @@ p {
 
 .btn-outline:hover {
     background: white;
-    color: #2563eb;
+    color: #dc2626;
 }
 
 .grid {
@@ -297,9 +339,27 @@ footer {
     background: #1e293b;
     color: white;
     text-align: center;
-    padding: 2rem 0;
-    margin-top: 3rem;
-    border-top: 4px solid #2563eb;
+    padding: 1rem 0;
+    border-top: 4px solid #dc2626;
+    position: relative;
+    z-index: 100;
+}
+
+/* Set body background based on page class */
+body:has(.home-page)::before {
+    background-image: url('/images/Home.jpg');
+}
+
+body:has(.products-page)::before {
+    background-image: url('/images/Products.jpg');
+}
+
+body:has(.about-page)::before {
+    background-image: url('/images/About.jpg');
+}
+
+body:has(.contact-page)::before {
+    background-image: url('/images/Contact.jpg');
 }
 
 @media (max-width: 768px) {

@@ -330,9 +330,18 @@ export default {
   color: #1e293b;
 }
 
+body.dark-mode .faq-item strong {
+  color: #ffffff;
+}
+
 .faq-item p {
   margin: 0;
   color: #666;
   font-size: 0.95rem;
+  font-style: italic;
+}
+
+body.dark-mode .faq-item p {
+  color: #ffffff;
 }
 </style>
