@@ -5,9 +5,9 @@
 @section('content')
 <div class="hero">
     <h1>Welcome to Wendell's Place</h1>
-    <p>Your trusted partner for quality products and exceptional services</p>
+    <p>Expert Guitar Repair & Premium Parts Sourcing</p>
     <div style="margin-top: 2rem;">
-        <a href="{{ route('products') }}" class="btn" style="margin-right: 1rem;">Explore Products</a>
+        <a href="{{ route('products') }}" class="btn" style="margin-right: 1rem;">View Services</a>
         <a href="{{ route('contact') }}" class="btn btn-outline">Get in Touch</a>
     </div>
 </div>
@@ -17,40 +17,40 @@
     
     <div class="grid">
         <div class="card">
-            <h3>🎯 Quality First</h3>
-            <p>We prioritize quality in everything we do, ensuring you receive only the best products and services.</p>
+            <h3>🎸 Expert Repairs</h3>
+            <p>Professional guitar repair services with years of experience in restoring instruments to peak performance.</p>
         </div>
         
         <div class="card">
-            <h3>💼 Professional Service</h3>
-            <p>Our experienced team is dedicated to providing professional and reliable service to meet your needs.</p>
+            <h3>🔧 Quality Parts</h3>
+            <p>We source only the finest guitar parts and components from trusted suppliers worldwide.</p>
         </div>
         
         <div class="card">
-            <h3>🤝 Customer Focused</h3>
-            <p>Your satisfaction is our priority. We work closely with you to deliver exactly what you need.</p>
+            <h3>⚡ Fast Turnaround</h3>
+            <p>Most repairs completed within 1-2 weeks. Rush services available for urgent needs.</p>
         </div>
         
         <div class="card">
-            <h3>⚡ Fast Delivery</h3>
-            <p>We understand your time is valuable. Count on us for prompt and efficient service delivery.</p>
+            <h3>💰 Fair Pricing</h3>
+            <p>Transparent pricing with detailed estimates before any work begins. No hidden fees.</p>
         </div>
         
         <div class="card">
-            <h3>💰 Competitive Pricing</h3>
-            <p>Get the best value for your investment with our competitive pricing and transparent quotes.</p>
+            <h3>🎯 Custom Work</h3>
+            <p>From setups to complete rebuilds, we handle custom modifications and upgrades.</p>
         </div>
         
         <div class="card">
-            <h3>🔧 Support</h3>
-            <p>Our dedicated support team is always ready to assist you with any questions or concerns.</p>
+            <h3>🤝 Trusted Service</h3>
+            <p>Your instrument is in safe hands. We treat every guitar like it's our own.</p>
         </div>
     </div>
 </section>
 
 <section style="background: #fff; padding: 3rem; border-radius: 8px; margin-top: 3rem; text-align: center;">
-    <h2>Ready to Get Started?</h2>
-    <p style="font-size: 1.1rem; margin-bottom: 2rem;">Discover what Wendell's Place can do for you today.</p>
-    <a href="{{ route('contact') }}" class="btn">Contact Us Now</a>
+    <h2>Ready to Restore Your Guitar?</h2>
+    <p style="font-size: 1.1rem; margin-bottom: 2rem;">Get your instrument back in perfect playing condition.</p>
+    <a href="{{ route('contact') }}" class="btn">Book a Repair</a>
 </section>
 @endsection

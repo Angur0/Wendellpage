@@ -4,126 +4,126 @@
 
 @section('content')
 <div class="hero" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
-    <h1>Products & Services</h1>
-    <p>Discover our comprehensive range of offerings tailored to your needs</p>
+    <h1>Repair Services & Parts</h1>
+    <p>Professional guitar repair and premium parts sourcing</p>
 </div>
 
 <section>
-    <h2>Our Products</h2>
-    <p style="font-size: 1.1rem; margin-bottom: 2rem;">We offer a wide selection of high-quality products designed to meet your requirements.</p>
+    <h2>Guitar Parts</h2>
+    <p style="font-size: 1.1rem; margin-bottom: 2rem;">Premium guitar parts sourced from the best manufacturers worldwide.</p>
     
     <div class="grid">
         <div class="card">
-            <h3>Premium Product Line</h3>
-            <p>Our flagship products featuring cutting-edge technology and superior craftsmanship.</p>
+            <h3>🎸 Electronics</h3>
+            <p>High-quality pickups, pots, switches, and wiring components for any guitar.</p>
             <ul style="margin-left: 1.5rem; margin-top: 1rem;">
-                <li>High-quality materials</li>
-                <li>Innovative design</li>
-                <li>Long-lasting durability</li>
+                <li>Single coil & humbucker pickups</li>
+                <li>Potentiometers & capacitors</li>
+                <li>Pre-wired harnesses</li>
             </ul>
             <div style="margin-top: 1.5rem;">
-                <a href="{{ route('contact') }}" class="btn">Learn More</a>
+                <a href="{{ route('contact') }}" class="btn">Order Parts</a>
             </div>
         </div>
         
         <div class="card">
-            <h3>Standard Solutions</h3>
-            <p>Reliable and cost-effective products perfect for everyday needs.</p>
+            <h3>🔩 Hardware</h3>
+            <p>Bridges, tuners, tailpieces, and all the hardware you need.</p>
             <ul style="margin-left: 1.5rem; margin-top: 1rem;">
-                <li>Affordable pricing</li>
-                <li>Proven reliability</li>
-                <li>Easy to use</li>
+                <li>Tremolo & fixed bridges</li>
+                <li>Locking & vintage tuners</li>
+                <li>Nuts, saddles, & string trees</li>
             </ul>
             <div style="margin-top: 1.5rem;">
-                <a href="{{ route('contact') }}" class="btn">Learn More</a>
+                <a href="{{ route('contact') }}" class="btn">Order Parts</a>
             </div>
         </div>
         
         <div class="card">
-            <h3>Custom Products</h3>
-            <p>Tailored solutions designed specifically for your unique requirements.</p>
+            <h3>🪵 Woods & Bodies</h3>
+            <p>Premium tonewoods, necks, and bodies for custom builds and replacements.</p>
             <ul style="margin-left: 1.5rem; margin-top: 1rem;">
-                <li>Customizable options</li>
-                <li>Personalized service</li>
-                <li>Flexible configurations</li>
+                <li>Solid body blanks</li>
+                <li>Maple & rosewood necks</li>
+                <li>Exotic wood options</li>
             </ul>
             <div style="margin-top: 1.5rem;">
-                <a href="{{ route('contact') }}" class="btn">Learn More</a>
+                <a href="{{ route('contact') }}" class="btn">Order Parts</a>
             </div>
         </div>
     </div>
 </section>
 
 <section style="margin-top: 4rem;">
-    <h2>Our Services</h2>
-    <p style="font-size: 1.1rem; margin-bottom: 2rem;">Professional services delivered by our experienced team.</p>
+    <h2>Repair Services</h2>
+    <p style="font-size: 1.1rem; margin-bottom: 2rem;">Expert repair and restoration services for all types of guitars.</p>
     
     <div class="grid">
         <div class="card">
-            <h3>🔧 Consulting</h3>
-            <p>Expert guidance to help you make informed decisions and achieve your goals.</p>
+            <h3>🔧 Setup & Adjustment</h3>
+            <p>Professional setup to optimize playability and tone.</p>
             <ul style="margin-left: 1.5rem; margin-top: 1rem;">
-                <li>Strategic planning</li>
-                <li>Technical expertise</li>
-                <li>Implementation support</li>
+                <li>Truss rod adjustment</li>
+                <li>Action & intonation setup</li>
+                <li>Fret dressing</li>
             </ul>
         </div>
         
         <div class="card">
-            <h3>🛠️ Installation & Setup</h3>
-            <p>Professional installation services ensuring optimal performance from day one.</p>
+            <h3>🎸 Electronics Repair</h3>
+            <p>Fix wiring issues, replace pickups, and upgrade electronics.</p>
             <ul style="margin-left: 1.5rem; margin-top: 1rem;">
-                <li>On-site installation</li>
-                <li>Configuration</li>
-                <li>Training provided</li>
+                <li>Pickup replacement</li>
+                <li>Rewiring & shielding</li>
+                <li>Switch & pot repair</li>
             </ul>
         </div>
         
         <div class="card">
-            <h3>🔍 Maintenance & Support</h3>
-            <p>Ongoing support to keep your systems running smoothly and efficiently.</p>
+            <h3>🪵 Structural Repairs</h3>
+            <p>Expert repairs for cracks, breaks, and structural damage.</p>
             <ul style="margin-left: 1.5rem; margin-top: 1rem;">
-                <li>Regular maintenance</li>
-                <li>Technical support</li>
-                <li>Emergency assistance</li>
+                <li>Crack repair & binding</li>
+                <li>Neck reset</li>
+                <li>Headstock repair</li>
             </ul>
         </div>
         
         <div class="card">
-            <h3>📊 Analysis & Optimization</h3>
-            <p>Data-driven insights to improve performance and maximize efficiency.</p>
+            <h3>🎨 Refinishing</h3>
+            <p>Restore or customize your guitar's finish to like-new condition.</p>
             <ul style="margin-left: 1.5rem; margin-top: 1rem;">
-                <li>Performance analysis</li>
-                <li>Optimization strategies</li>
-                <li>Detailed reporting</li>
+                <li>Complete refinishing</li>
+                <li>Touch-up work</li>
+                <li>Custom colors & finishes</li>
             </ul>
         </div>
         
         <div class="card">
-            <h3>🎓 Training Programs</h3>
-            <p>Comprehensive training to help your team get the most from our solutions.</p>
+            <h3>🔩 Hardware Installation</h3>
+            <p>Professional installation of new hardware and upgrades.</p>
             <ul style="margin-left: 1.5rem; margin-top: 1rem;">
-                <li>Customized training</li>
-                <li>Hands-on workshops</li>
-                <li>Ongoing education</li>
+                <li>Bridge installation</li>
+                <li>Tuner replacement</li>
+                <li>Nut & saddle work</li>
             </ul>
         </div>
         
         <div class="card">
-            <h3>🚀 Project Management</h3>
-            <p>End-to-end project management ensuring successful delivery every time.</p>
+            <h3>⚡ Custom Modifications</h3>
+            <p>Personalize your guitar with custom mods and upgrades.</p>
             <ul style="margin-left: 1.5rem; margin-top: 1rem;">
-                <li>Timeline management</li>
-                <li>Resource allocation</li>
-                <li>Quality assurance</li>
+                <li>Pickup routing</li>
+                <li>Coil splitting</li>
+                <li>Custom wiring</li>
             </ul>
         </div>
     </div>
 </section>
 
 <section style="background: #fff; padding: 3rem; border-radius: 8px; margin-top: 3rem; text-align: center;">
-    <h2>Need a Custom Solution?</h2>
-    <p style="font-size: 1.1rem; margin-bottom: 2rem;">We're here to create the perfect solution for your specific needs.</p>
+    <h2>Need a Repair Estimate?</h2>
+    <p style="font-size: 1.1rem; margin-bottom: 2rem;">Get a free quote for your guitar repair or parts order.</p>
     <a href="{{ route('contact') }}" class="btn">Request a Quote</a>
 </section>
 @endsection

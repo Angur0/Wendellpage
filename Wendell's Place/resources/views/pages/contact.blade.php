@@ -4,14 +4,14 @@
 
 @section('content')
 <div class="hero" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
-    <h1>Contact Us</h1>
-    <p>We'd love to hear from you. Get in touch with us today!</p>
+    <h1>Get Your Repair Started</h1>
+    <p>Contact us for repairs, parts orders, or general inquiries</p>
 </div>
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; margin-bottom: 3rem;">
     <section class="card">
-        <h2>Send Us a Message</h2>
-        <p style="margin-bottom: 2rem;">Fill out the form below and we'll get back to you as soon as possible.</p>
+        <h2>Request a Repair or Quote</h2>
+        <p style="margin-bottom: 2rem;">Tell us about your guitar and what you need done. We'll respond within 24 hours.</p>
         
         <form action="#" method="POST">
             <div class="form-group">
@@ -31,15 +31,15 @@
             
             <div class="form-group">
                 <label for="subject">Subject *</label>
-                <input type="text" id="subject" name="subject" required placeholder="How can we help?">
+                <input type="text" id="subject" name="subject" required placeholder="e.g., Setup, Pickup Installation, Parts Order">
             </div>
             
             <div class="form-group">
                 <label for="message">Message *</label>
-                <textarea id="message" name="message" required placeholder="Tell us more about your inquiry..."></textarea>
+                <textarea id="message" name="message" required placeholder="Describe your guitar (make/model) and what needs to be done..."></textarea>
             </div>
             
-            <button type="submit" class="btn" style="width: 100%; cursor: pointer; border: none;">Send Message</button>
+            <button type="submit" class="btn" style="width: 100%; cursor: pointer; border: none;">Submit Request</button>
         </form>
     </section>
     
@@ -76,9 +76,9 @@
         </div>
         
         <div class="card" style="margin-top: 2rem;">
-            <h3>Quick Response</h3>
-            <p>We typically respond to all inquiries within 24 hours during business days.</p>
-            <p style="margin-top: 1rem;">For urgent matters, please call us directly at <strong>+1 (555) 123-4567</strong>.</p>
+            <h3>Drop-Off & Pickup</h3>
+            <p>Prefer to drop off your guitar in person? Visit us during business hours. No appointment needed for drop-offs!</p>
+            <p style="margin-top: 1rem;">For urgent repairs, please call us directly at <strong>+1 (555) 123-4567</strong>.</p>
         </div>
     </section>
 </div>
@@ -87,28 +87,28 @@
     <h2 style="text-align: center;">Frequently Asked Questions</h2>
     <div style="margin-top: 2rem; display: grid; gap: 1.5rem;">
         <div>
-            <h3 style="color: #2563eb; margin-bottom: 0.5rem;">How quickly can you respond to my inquiry?</h3>
-            <p>We aim to respond to all inquiries within 24 hours during business days. Urgent matters are prioritized and handled as quickly as possible.</p>
+            <h3 style="color: #2563eb; margin-bottom: 0.5rem;">How long does a typical repair take?</h3>
+            <p>Most repairs are completed within 1-2 weeks. Simple setups can often be done same-day or next-day. Rush service is available for urgent needs.</p>
         </div>
         <div>
-            <h3 style="color: #2563eb; margin-bottom: 0.5rem;">Do you offer consultations?</h3>
-            <p>Yes! We offer free initial consultations to discuss your needs and how we can help. Contact us to schedule your consultation.</p>
+            <h3 style="color: #2563eb; margin-bottom: 0.5rem;">Do you provide free estimates?</h3>
+            <p>Yes! We offer free estimates for all repairs. We'll assess your guitar and provide a detailed quote before starting any work.</p>
         </div>
         <div>
-            <h3 style="color: #2563eb; margin-bottom: 0.5rem;">What areas do you serve?</h3>
-            <p>We serve clients locally and remotely. Contact us to discuss your specific location and service needs.</p>
+            <h3 style="color: #2563eb; margin-bottom: 0.5rem;">What types of guitars do you work on?</h3>
+            <p>We repair all types: electric, acoustic, bass, classical, and vintage instruments. If you have a special case, give us a call to discuss.</p>
         </div>
         <div>
-            <h3 style="color: #2563eb; margin-bottom: 0.5rem;">Can I visit your office?</h3>
-            <p>Absolutely! We welcome visitors. Please call ahead to schedule an appointment to ensure someone is available to assist you.</p>
+            <h3 style="color: #2563eb; margin-bottom: 0.5rem;">Can you order specific parts for my guitar?</h3>
+            <p>Absolutely! We source parts from manufacturers worldwide. Tell us what you need and we'll find it for you.</p>
         </div>
     </div>
 </section>
 
 <section style="background: #fff; padding: 3rem; border-radius: 8px; margin-top: 3rem; text-align: center;">
-    <h2>Ready to Start?</h2>
+    <h2>Ready to Get Started?</h2>
     <p style="font-size: 1.1rem; margin-bottom: 2rem;">
-        Let's discuss how Wendell's Place can help you achieve your goals.
+        Let's get your guitar playing at its best.
     </p>
     <a href="{{ route('products') }}" class="btn btn-outline">View Our Services</a>
 </section>
