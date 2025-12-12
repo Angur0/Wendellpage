@@ -1,9 +1,12 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\PageController;
+use App\Http\Controllers\Api\ContactController;
 
-Route::get('/', [PageController::class, 'home'])->name('home');
-Route::get('/products', [PageController::class, 'products'])->name('products');
-Route::get('/about', [PageController::class, 'about'])->name('about');
-Route::get('/contact', [PageController::class, 'contact'])->name('contact');
+// API routes for form submissions
+Route::post('/api/contact', [ContactController::class, 'submit']);
+
+// Catch-all route for Vue Router - serves the main Vue SPA
+Route::get('/{any}', function () {
+    return view('welcome');
+})->where('any', '.*');

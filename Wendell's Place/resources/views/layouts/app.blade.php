@@ -324,6 +324,8 @@
             @yield('content')
         </div>
     </main>
+    
+    <div id="app"></div>
 
     <footer>
         <div class="container">

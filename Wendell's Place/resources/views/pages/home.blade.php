@@ -48,6 +48,12 @@
     </div>
 </section>
 
+<section class="card">
+    <div id="quote-calculator">
+        <guitar-quote-calculator></guitar-quote-calculator>
+    </div>
+</section>
+
 <section style="background: #fff; padding: 3rem; border-radius: 8px; margin-top: 3rem; text-align: center;">
     <h2>Ready to Restore Your Guitar?</h2>
     <p style="font-size: 1.1rem; margin-bottom: 2rem;">Get your instrument back in perfect playing condition.</p>
