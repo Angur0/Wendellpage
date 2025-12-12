@@ -110,8 +110,12 @@ export default {
 .subtitle {
   text-align: center;
   font-size: 1.2rem;
-  color: #666;
+  color: #444;
   margin-bottom: 3rem;
+}
+
+body.dark-mode .subtitle {
+  color: #e5e5e5;
 }
 
 .card-image {

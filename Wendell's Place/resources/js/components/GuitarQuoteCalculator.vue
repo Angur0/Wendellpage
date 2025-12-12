@@ -30,7 +30,7 @@
         <div v-if="showEstimate" class="estimate-result">
             <h4>Estimated Cost</h4>
             <div class="price">₱{{ estimatedPrice.toLocaleString() }}</div>
-            <p style="font-size: 0.9rem; color: #666;">This is a base estimate. Final cost may vary based on guitar condition and specific requirements.</p>
+            <p style="font-size: 0.9rem; color: #f0f0f0;">This is a base estimate. Final cost may vary based on guitar condition and specific requirements.</p>
             <button @click="requestQuote" class="btn" style="margin-top: 1rem;">Request Detailed Quote</button>
         </div>
     </div>
@@ -100,12 +100,13 @@ select:focus {
 }
 
 .estimate-result {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: rgba(0, 0, 0, 0.7);
     color: white;
     padding: 2rem;
     border-radius: 8px;
     text-align: center;
     margin-top: 2rem;
+    border: 2px solid #dc2626;
 }
 
 .estimate-result h4 {
@@ -117,6 +118,7 @@ select:focus {
     font-size: 3rem;
     font-weight: bold;
     margin: 1rem 0;
+    color: #dc2626;
 }
 
 .estimate-result p {
@@ -124,11 +126,11 @@ select:focus {
 }
 
 .estimate-result .btn {
-    background-color: white;
-    color: #667eea;
+    background-color: #dc2626;
+    color: white;
 }
 
 .estimate-result .btn:hover {
-    background-color: #f3f4f6;
+    background-color: #b91c1c;
 }
 </style>

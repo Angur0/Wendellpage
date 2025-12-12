@@ -348,6 +348,36 @@ footer {
     z-index: 100;
 }
 
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.footer-content p {
+    margin: 0;
+}
+
+.social-icons {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.social-icons a {
+    color: white;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s, transform 0.2s;
+}
+
+.social-icons a:hover {
+    color: #dc2626;
+    transform: scale(1.1);
+}
+
 /* Set body background based on page class */
 body:has(.home-page)::before {
     background-image: url('/images/Home.jpg');

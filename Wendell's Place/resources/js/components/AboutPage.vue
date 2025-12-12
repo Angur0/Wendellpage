@@ -110,8 +110,12 @@ export default {
 .subtitle {
   text-align: center;
   font-size: 1.2rem;
-  color: #666;
+  color: #444;
   margin-bottom: 3rem;
+}
+
+body.dark-mode .subtitle {
+  color: #e5e5e5;
 }
 
 .story-section {
@@ -180,7 +184,11 @@ export default {
 
 .feature-item p {
   margin: 0;
-  color: #666;
+  color: #444;
+}
+
+body.dark-mode .feature-item p {
+  color: #e5e5e5;
 }
 
 .cta-section {
